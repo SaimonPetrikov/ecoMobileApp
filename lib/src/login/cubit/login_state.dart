@@ -17,11 +17,11 @@ class LoginLoading extends LoginState {
 
 /// State when all conditions are met.
 class LoginSucceed extends LoginState {
-  /// Fetching [LoginResponse] from [LoginCubit.auth].
+  /// Fetching [Login] from [LoginCubit.auth].
   LoginSucceed({required this.response});
 
   /// Successful output after running [LoginCubit.auth].
-  final LoginResponse response;
+  final Login response;
 
   @override
   List<Object> get props => [response];

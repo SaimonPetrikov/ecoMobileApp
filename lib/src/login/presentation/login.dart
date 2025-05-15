@@ -45,7 +45,7 @@ class Login extends StatelessWidget {
       SliverList(
           delegate: SliverChildListDelegate([
         // Illustration.
-        SvgPicture.asset('assets/illustration.svg'),
+        // SvgPicture.asset('assets/illustration.svg'),
 
         // Textfields.
         for (int x = 0; x < 2; x++)

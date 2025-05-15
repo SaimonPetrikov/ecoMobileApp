@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Important
+
+Create .env
+
+API_URL=https://d25e1d9f-7c93-4f53-a060-d7c694f6b46b.tunnel4.com
+CONNECTION_TIMEOUT=10
+RECEIVE_TIMEOUT=10
